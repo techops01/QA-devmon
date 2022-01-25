@@ -25,4 +25,6 @@ Edit field "mac": "PASTE_YOUR_MAC_HERE", in config.json
 
 How to run
 
+pip3 install --upgrade pip
+
 python3 main.py --config config.json --ssh
