@@ -1,7 +1,7 @@
 How to use
 
-"interval": 2700000, #ms
 
+"interval": 2700000, #ms
     "timezone": 2, #UTC
     
     "ssh": {       #gateway
