@@ -1,10 +1,9 @@
 How to use
 "interval": 2700000, #ms
 <br>
-    "timezone": 2, #UTC
-    </br>
     
-    <br>
+    "timezone": 2, #UTC
+    
     "ssh": {       #gateway
         "host": "192.168.0.1",
  
