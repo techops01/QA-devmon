@@ -3,6 +3,7 @@ How to use
 <br>
     "timezone": 2, #UTC
     </br>
+    
     <br>
     "ssh": {       #gateway
         "host": "192.168.0.1",
