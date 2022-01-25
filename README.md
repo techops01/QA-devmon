@@ -1,6 +1,6 @@
 How to use
 
-Edit field "mac": "PASTE_YOUR_MAC_HERE",
+Edit field "mac": "PASTE_YOUR_MAC_HERE", in config.json
 
     "interval": 2700000, #ms
 
