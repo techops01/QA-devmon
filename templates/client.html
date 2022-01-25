@@ -1,0 +1,108 @@
+<!DOCTYPE html>
+<html class="loading light-layout" lang="en" data-layout="light-layout" data-textdirection="ltr">
+    <head>
+        <meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=0, minimal-ui">
+
+        <title>Netbuster</title>
+
+        <link rel="shortcut icon" type="image/png" href="/assets/images/favicon.png">
+        <link href="https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,300;0,400;0,500;0,600;1,400;1,500;1,600" rel="stylesheet">
+
+        <link rel="stylesheet" type="text/css" href="/assets/css/vendors/vendors.min.css">
+        <link rel="stylesheet" type="text/css" href="/assets/css/vendors/tables/datatable/datatables.min.css">
+        <link rel="stylesheet" type="text/css" href="/assets/css/vendors/tables/datatable/extensions/dataTables.checkboxes.css">
+        <link rel="stylesheet" type="text/css" href="/assets/css/vendors/tables/datatable/responsive.bootstrap.min.css">
+
+        <link rel="stylesheet" type="text/css" href="/assets/css/core/bootstrap.css">
+        <link rel="stylesheet" type="text/css" href="/assets/css/core/bootstrap-extended.css">
+        <link rel="stylesheet" type="text/css" href="/assets/css/core/colors.css">
+        <link rel="stylesheet" type="text/css" href="/assets/css/core/components.css">
+        <link rel="stylesheet" type="text/css" href="/assets/css/themes/dark-layout.css">
+        <link rel="stylesheet" type="text/css" href="/assets/css/themes/bordered-layout.css">
+        <link rel="stylesheet" type="text/css" href="/assets/css/themes/semi-dark-layout.css">
+
+        <link rel="stylesheet" type="text/css" href="/assets/css/core/vertical-menu.css">
+        <link rel="stylesheet" type="text/css" href="/assets/css/style.css">
+    </head>
+    <body class="vertical-layout vertical-menu-modern  navbar-floating footer-static" data-open="click" data-menu="vertical-menu-modern" data-col="">
+
+        {% sidebar.html %}
+
+        <div class="app-content content ">
+            <div class="content-wrapper">
+                <div class="content-body">
+                    <div class="row match-height">
+                        <div class="col-xl-6 col-md-6 col-12">
+                            <div class="card card-congratulation-medal">
+                                <div class="card-body">
+                                    <h5 id="macData"></h5>
+                                    <p id="lookupData" class="card-text font-small-3"></p>
+                                    <h3 class="mb-75 mt-2 pt-50">
+                                        <a id="ipData">Loading..</a>
+                                    </h3>
+                                    <button onclick="document.location.reload()" type="button" class="btn btn-primary waves-effect waves-float waves-light">Обновить данные</button>
+                                </div>
+                            </div>
+                        </div>
+
+                        <div class="col-xl-6 col-md-6 col-12">
+                            <div class="card card-congratulation-medal">
+                                <div class="card-body">
+                                    <h5>OS Detection</h5>
+                                    <p class="card-text font-small-3">Данная функция еще в разработке и скоро будет доступна. Чтобы не пропускать обновления сохрани проект на GitHub и подпишись на нас в социальных сетях!<br><br>
+                                        <a href="https://github.com/triangleis/netbuster">GitHub</a> -
+                                        <a href="https://t.me/triangleis">Telegram</a> -
+                                        <a href="https://triangle.is">Developer Site</a>
+                                    </p>
+                                </div>
+                            </div>
+                        </div>
+
+                        <div class="col-xl-12 col-md-12 col-12">
+                            <div class="card card-congratulation-medal">
+                                <div class="card-body">
+                                    <table id="portsTable" class="clients-table table" style="font-size: 1rem;">
+                                        <thead>
+                                            <tr>
+                                                <th>Port Number</th>
+                                                <th>Port Name</th>
+                                                <th>Port Type</th>
+                                            </tr>
+                                        </thead>
+                                        <tbody>
+                                            <tr>
+                                                <td> Loading...</td>
+                                            </tr>
+                                        </tbody>
+                                    </table>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <div class="sidenav-overlay"></div>
+        <div class="drag-target"></div>
+
+        {% footer.html %}
+
+        <script src="/assets/js/vendors/vendors.min.js"></script>
+        <script src="/assets/js/vendors/extensions/moment.min.js"></script>
+
+        <script src="/assets/js/vendors/tables/datatable/datatables.min.js"></script>
+        <script src="/assets/js/vendors/tables/datatable/datatables.buttons.min.js"></script>
+        <script src="/assets/js/vendors/tables/datatable/datatables.bootstrap4.min.js"></script>
+        <script src="/assets/js/vendors/tables/datatable/datatables.checkboxes.min.js"></script>
+        <script src="/assets/js/vendors/tables/datatable/dataTables.responsive.min.js"></script>
+        <script src="/assets/js/vendors/tables/datatable/responsive.bootstrap.min.js"></script>
+
+        <script src="/assets/js/core/app-menu.js"></script>
+        <script src="/assets/js/core/app.js"></script>
+
+        <script src="/assets/js/client_info.js"></script>
+    </body>
+</html>

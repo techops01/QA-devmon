@@ -1,0 +1,508 @@
+{
+    "interval": 2700000,
+    "timezone": 2,
+    "ssh": {
+        "host": "192.168.0.1",
+        "port": 22,
+        "user": "root",
+        "passwd": "Moon66!!"
+    },
+    "subnets": [],
+    "devices": [
+        {
+            "device": "Apple iPhone 5S 16Gb SpaceGray",
+            "ipv4": "",
+            "mac": "6a:d7:9a:29:70:52",
+            "last_discovery": "17 January, 12:15PM",
+            "last_check": "25 January, 10:48AM",
+            "category": "phone",
+            "online": false
+        },
+        {
+            "device": "Apple iPhone 6 16Gb SpaceGray",
+            "ipv4": "",
+            "mac": "78:fd:94:2b:10:76",
+            "last_discovery": "",
+            "last_check": "25 January, 10:48AM",
+            "category": "phone",
+            "online": false
+        },
+        {
+            "device": "Apple iPhone 7 Plus",
+            "ipv4": "192.168.7.56",
+            "mac": "40:70:f5:71:bd:9c",
+            "last_discovery": "25 January, 10:48AM",
+            "last_check": "25 January, 10:48AM",
+            "category": "phone",
+            "online": true
+        },
+        {
+            "device": "Apple iPhone 7 Rose Gold 32GB",
+            "ipv4": "",
+            "mac": "b8:f1:2a:44:e1:0f",
+            "last_discovery": "",
+            "last_check": "25 January, 10:48AM",
+            "category": "phone",
+            "online": false
+        },
+        {
+            "device": "Apple iPhone 8 64GB(MQ6G2QL.A)",
+            "ipv4": "",
+            "mac": "94:b0:1f:8a:a7:ac",
+            "last_discovery": "",
+            "last_check": "25 January, 10:48AM",
+            "category": "phone",
+            "online": false
+        },
+        {
+            "device": "Apple iPhone 8 64GB",
+            "ipv4": "",
+            "mac": "94:b0:1f:7c:1c:03",
+            "last_discovery": "24 January, 11:28AM",
+            "last_check": "25 January, 10:48AM",
+            "category": "phone",
+            "online": false
+        },
+        {
+            "device": "Apple iPhone 11 64GB",
+            "ipv4": "192.168.1.1",
+            "mac": "00:0c:29:60:7e:43",
+            "last_discovery": "25 January, 10:48AM",
+            "last_check": "25 January, 10:48AM",
+            "category": "phone",
+            "online": true
+        },
+        {
+            "device": "Apple iPhone 12Pro Max",
+            "ipv4": "",
+            "mac": "6a:d7:9a:29:70:52",
+            "last_discovery": "",
+            "last_check": "25 January, 10:48AM",
+            "category": "phone",
+            "online": false
+        },
+        {
+            "device": "Apple iPhone 13",
+            "ipv4": "",
+            "mac": "6a:d7:9a:29:70:52",
+            "last_discovery": "17 January, 12:15PM",
+            "last_check": "25 January, 10:48AM",
+            "category": "phone",
+            "online": false
+        },
+        {
+            "device": "Apple iPhone SE White",
+            "ipv4": "",
+            "mac": "84:ab:1a:37:2e:9b",
+            "last_discovery": "",
+            "last_check": "25 January, 10:48AM",
+            "category": "phone",
+            "online": false
+        },
+        {
+            "device": "Apple iPhone X 64GB",
+            "ipv4": "192.168.3.225",
+            "mac": "e4:9a:dc:f3:ba:d3",
+            "last_discovery": "25 January, 10:48AM",
+            "last_check": "25 January, 10:48AM",
+            "category": "phone",
+            "online": true
+        },
+        {
+            "device": "Apple iPhone X 256GB",
+            "ipv4": "",
+            "mac": "d4:a3:3d:b5:41:38",
+            "last_discovery": "",
+            "last_check": "25 January, 10:48AM",
+            "category": "phone",
+            "online": false
+        },
+        {
+            "device": "Apple iPhone XR 64GB Red",
+            "ipv4": "",
+            "mac": "b8:b2:f8:f0:d7:8d",
+            "last_discovery": "",
+            "last_check": "25 January, 10:48AM",
+            "category": "phone",
+            "online": false
+        },
+        {
+            "device": "Apple iPhone XR(MRY62QL.A)",
+            "ipv4": "192.168.5.133",
+            "mac": "d8:1c:79:70:61:e2",
+            "last_discovery": "25 January, 10:48AM",
+            "last_check": "25 January, 10:48AM",
+            "category": "phone",
+            "online": false
+        },
+        {
+            "device": "Apple iPhone XS 64GB",
+            "ipv4": "192.168.7.40",
+            "mac": "94:16:25:ac:c1:e7",
+            "last_discovery": "25 January, 10:48AM",
+            "last_check": "25 January, 10:48AM",
+            "category": "phone",
+            "online": true
+        },
+        {
+            "device": "Apple iPhone XS Max 64GB",
+            "ipv4": "",
+            "mac": "f0:99:b6:24:44:42",
+            "last_discovery": "",
+            "last_check": "25 January, 10:48AM",
+            "category": "phone",
+            "online": false
+        },
+        {
+            "device": "Xiaomi Mi 9T",
+            "ipv4": "",
+            "mac": "90:78:b2:5b:7f:d6",
+            "last_discovery": "",
+            "last_check": "25 January, 10:48AM",
+            "category": "phone",
+            "online": false
+        },
+        {
+            "device": "Samsung Galaxy S9+",
+            "ipv4": "192.168.6.33",
+            "mac": "6c:c7:ec:a8:66:b3",
+            "last_discovery": "25 January, 10:48AM",
+            "last_check": "25 January, 10:48AM",
+            "category": "phone",
+            "online": true
+        },
+        {
+            "device": "Samsung Galaxy S8",
+            "ipv4": "",
+            "mac": "b8:d7:af:9b:58:17",
+            "last_discovery": "",
+            "last_check": "25 January, 10:48AM",
+            "category": "phone",
+            "online": false
+        },
+        {
+            "device": "Samsung Galaxy S7",
+            "ipv4": "",
+            "mac": "null",
+            "last_discovery": "",
+            "last_check": "25 January, 10:48AM",
+            "category": "phone",
+            "online": false
+        },
+        {
+            "device": "Samsung Galaxy S6 (G920A)",
+            "ipv4": "",
+            "mac": "ec:1f:72:0e:c5:d7",
+            "last_discovery": "",
+            "last_check": "25 January, 10:48AM",
+            "category": "phone",
+            "online": false
+        },
+        {
+            "device": "Samsung Galaxy S5 16Gb Black",
+            "ipv4": "",
+            "mac": "fc:db:b3:c5:b2:26",
+            "last_discovery": "",
+            "last_check": "25 January, 10:48AM",
+            "category": "phone",
+            "online": false
+        },
+        {
+            "device": "Samsung Galaxy S10 E",
+            "ipv4": "",
+            "mac": "8c:b8:4a:6d:2d:95",
+            "last_discovery": "",
+            "last_check": "25 January, 10:48AM",
+            "category": "phone",
+            "online": false
+        },
+        {
+            "device": "Samsung Galaxy Note 10",
+            "ipv4": "",
+            "mac": "2c:4c:c6:ea:ad:ff",
+            "last_discovery": "",
+            "last_check": "25 January, 10:48AM",
+            "category": "phone",
+            "online": false
+        },
+        {
+            "device": "Samsung Galaxy J7 16Gb White",
+            "ipv4": "",
+            "mac": "ec:10:7b:41:1f:6e",
+            "last_discovery": "",
+            "last_check": "25 January, 10:48AM",
+            "category": "phone",
+            "online": false
+        },
+        {
+            "device": "Huawei P20 (Black case)",
+            "ipv4": "",
+            "mac": "90:94:97:0c:47:0e",
+            "last_discovery": "",
+            "last_check": "25 January, 10:48AM",
+            "category": "phone",
+            "online": false
+        },
+        {
+            "device": "Huawei P20",
+            "ipv4": "",
+            "mac": "ac:07:5f:f8:f9:55",
+            "last_discovery": "",
+            "last_check": "25 January, 10:48AM",
+            "category": "phone",
+            "online": false
+        },
+        {
+            "device": "Huawei P Smart +  64gb",
+            "ipv4": "",
+            "mac": "d0:16:b4:2c:91:58",
+            "last_discovery": "",
+            "last_check": "25 January, 10:48AM",
+            "category": "phone",
+            "online": false
+        },
+        {
+            "device": "Google Pixel G-2PW4100",
+            "ipv4": "",
+            "mac": "ac:37:43:df:4d:e8",
+            "last_discovery": "24 January, 10:26AM",
+            "last_check": "25 January, 10:48AM",
+            "category": "phone",
+            "online": false
+        },
+        {
+            "device": "Google Pixel 3",
+            "ipv4": "",
+            "mac": "3c:28:6d:e3:d6:d7",
+            "last_discovery": "",
+            "last_check": "25 January, 10:48AM",
+            "category": "phone",
+            "online": false
+        },
+        {
+            "device": "Huawei P40 Lite Black",
+            "ipv4": "192.168.3.63",
+            "mac": "6c:06:d6:c7:9a:ff",
+            "last_discovery": "25 January, 10:48AM",
+            "last_check": "25 January, 10:48AM",
+            "category": "phone",
+            "online": true
+        },
+        {
+            "device": "Apple iPad 9.7",
+            "ipv4": "",
+            "mac": "f0:9f:c2:c2:64:48",
+            "last_discovery": "24 January, 11:28AM",
+            "last_check": "25 January, 10:48AM",
+            "category": "tablet",
+            "online": false
+        },
+        {
+            "device": "Apple iPad 9.7 inch (MR7G2LLA)",
+            "ipv4": "",
+            "mac": "68:05:ca:a5:02:93",
+            "last_discovery": "17 January, 12:15PM",
+            "last_check": "25 January, 10:48AM",
+            "category": "tablet",
+            "online": false
+        },
+        {
+            "device": "Apple iPad 32GB SpaceGrey(MW742)",
+            "ipv4": "",
+            "mac": "ac:15:f4:0e:35:20",
+            "last_discovery": "",
+            "last_check": "25 January, 10:48AM",
+            "category": "tablet",
+            "online": false
+        },
+        {
+            "device": "Apple iPad mini (6-th Gen)",
+            "ipv4": "192.168.7.250",
+            "mac": "08:ff:44:9a:28:2e",
+            "last_discovery": "25 January, 10:48AM",
+            "last_check": "25 January, 10:48AM",
+            "category": "tablet",
+            "online": true
+        },
+        {
+            "device": "Apple iPad mini 4 16Gb Space Gray",
+            "ipv4": "",
+            "mac": "04:52:f3:6f:0f:44",
+            "last_discovery": "",
+            "last_check": "25 January, 10:48AM",
+            "category": "tablet",
+            "online": false
+        },
+        {
+            "device": "Apple iPad mini 16Gb Black",
+            "ipv4": "192.168.5.133",
+            "mac": "d8:1c:79:70:61:e2",
+            "last_discovery": "25 January, 10:48AM",
+            "last_check": "25 January, 10:48AM",
+            "category": "tablet",
+            "online": true
+        },
+        {
+            "device": "Apple iPad Pro 9.7(MLPW2FDA)",
+            "ipv4": "192.168.4.1",
+            "mac": "bc:ee:7b:89:43:7d",
+            "last_discovery": "25 January, 10:48AM",
+            "last_check": "25 January, 10:48AM",
+            "category": "tablet",
+            "online": true
+        },
+        {
+            "device": "Apple iPad Pro 11 inch",
+            "ipv4": "192.168.1.2",
+            "mac": "00:0c:29:2b:f1:09",
+            "last_discovery": "25 January, 10:48AM",
+            "last_check": "25 January, 10:48AM",
+            "category": "tablet",
+            "online": true
+        },
+        {
+            "device": "Apple iPad Pro 12.9",
+            "ipv4": "",
+            "mac": "28:ff:3c:f2:59:7b",
+            "last_discovery": "",
+            "last_check": "25 January, 10:48AM",
+            "category": "tablet",
+            "online": false
+        },
+        {
+            "device": "Samsung Galaxy Tab S4",
+            "ipv4": "",
+            "mac": "64:89:f1:2a:86:d3",
+            "last_discovery": "",
+            "last_check": "25 January, 10:48AM",
+            "category": "tablet",
+            "online": false
+        },
+        {
+            "device": "Samsung Galaxy S2 9.7'(SM-T813)",
+            "ipv4": "",
+            "mac": "74:eb:80:5f:e6:52",
+            "last_discovery": "",
+            "last_check": "25 January, 10:48AM",
+            "category": "tablet",
+            "online": false
+        },
+        {
+            "device": "Samsung Galaxy Tab A 9.7' (SM-T550)",
+            "ipv4": "",
+            "mac": "44:78:3e:2a:9e:88",
+            "last_discovery": "",
+            "last_check": "25 January, 10:48AM",
+            "category": "tablet",
+            "online": false
+        },
+        {
+            "device": "Samsung Galaxy S6 Lite (SM-P615)",
+            "ipv4": "",
+            "mac": "70:1f:3c:91:0a:19",
+            "last_discovery": "24 January, 11:28AM",
+            "last_check": "25 January, 10:48AM",
+            "category": "tablet",
+            "online": false
+        },
+        {
+            "device": "Samsung Galaxy A SM-T555",
+            "ipv4": "",
+            "mac": "48:13:7e:e7:ce:73",
+            "last_discovery": "24 January, 10:24AM",
+            "last_check": "25 January, 10:48AM",
+            "category": "tablet",
+            "online": false
+        },
+        {
+            "device": "Huawei MediaPad T3 (KOB-L09)",
+            "ipv4": "",
+            "mac": "88:bf:e4:49:1f:ed",
+            "last_discovery": "",
+            "last_check": "25 January, 10:48AM",
+            "category": "tablet",
+            "online": false
+        },
+        {
+            "device": "Amazon Fire HD 8 (8th gen)",
+            "ipv4": "",
+            "mac": "68:db:f5:0a:2b:f6",
+            "last_discovery": "24 January, 10:12AM",
+            "last_check": "25 January, 10:48AM",
+            "category": "tablet",
+            "online": false
+        },
+        {
+            "device": "Amazon Fire 7 (9th gen)",
+            "ipv4": "",
+            "mac": "5c:41:5a:cd:4f:43",
+            "last_discovery": "",
+            "last_check": "25 January, 10:48AM",
+            "category": "tablet",
+            "online": false
+        },
+        {
+            "device": "Amazon Fire HD 8 (8th gen)",
+            "ipv4": "",
+            "mac": "68:db:f5:0a:2b:f6",
+            "last_discovery": "24 January, 10:12AM",
+            "last_check": "25 January, 10:48AM",
+            "category": "tablet",
+            "online": false
+        },
+        {
+            "device": "Amazon Fire 7 (7th gen)",
+            "ipv4": "",
+            "mac": "cc:9e:a2:1b:58:20",
+            "last_discovery": "",
+            "last_check": "25 January, 10:48AM",
+            "category": "tablet",
+            "online": false
+        },
+        {
+            "device": "Amazon Fire HD 8 (6th gen)",
+            "ipv4": "",
+            "mac": "cc:9e:a2:1b:58:20",
+            "last_discovery": "",
+            "last_check": "25 January, 10:48AM",
+            "category": "tablet",
+            "online": false
+        },
+        {
+            "device": "Amazon Kindle Fire (5th gen)",
+            "ipv4": "",
+            "mac": "ac:63:be:11:4a:da",
+            "last_discovery": "",
+            "last_check": "25 January, 10:48AM",
+            "category": "tablet",
+            "online": false
+        },
+        {
+            "device": "Amazon Fire HD 10(9th gen)",
+            "ipv4": "",
+            "mac": "a4:08:01:10:ff:b9",
+            "last_discovery": "",
+            "last_check": "25 January, 10:48AM",
+            "category": "tablet",
+            "online": false
+        },
+        {
+            "device": "Amazon Fire HD 10 - 9th generation",
+            "ipv4": "192.168.7.67",
+            "mac": "40:a2:db:fe:99:3a",
+            "last_discovery": "25 January, 10:48AM",
+            "last_check": "25 January, 10:48AM",
+            "category": "tablet",
+            "online": true
+        },
+        {
+            "device": "MacBook Air",
+            "ipv4": "",
+            "mac": "00:00:00:00:00:00",
+            "last_discovery": "",
+            "last_check": "25 January, 10:48AM",
+            "category": "laptop",
+            "online": false
+        }
+    ]
+}

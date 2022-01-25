@@ -1,0 +1,6 @@
+netifaces
+asyncio
+aioping
+aiohttp
+pycrypto
+paramiko

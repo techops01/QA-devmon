@@ -1,0 +1,133 @@
+<!DOCTYPE html>
+<html class="loading light-layout" lang="en" data-layout="light-layout" data-textdirection="ltr">
+    <head>
+        <meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=0, minimal-ui">
+
+        <title>QA devices mon</title>
+
+        <link rel="shortcut icon" type="image/png" href="/assets/images/favicon.png">
+        <link href="https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,300;0,400;0,500;0,600;1,400;1,500;1,600" rel="stylesheet">
+
+        <link rel="stylesheet" type="text/css" href="/assets/css/vendors/vendors.min.css">
+        <link rel="stylesheet" type="text/css" href="/assets/css/vendors/tables/datatable/datatables.min.css">
+        <link rel="stylesheet" type="text/css" href="/assets/css/vendors/tables/datatable/extensions/dataTables.checkboxes.css">
+        <link rel="stylesheet" type="text/css" href="/assets/css/vendors/tables/datatable/responsive.bootstrap.min.css">
+
+        <link rel="stylesheet" type="text/css" href="/assets/css/core/bootstrap.css">
+        <link rel="stylesheet" type="text/css" href="/assets/css/core/bootstrap-extended.css">
+        <link rel="stylesheet" type="text/css" href="/assets/css/core/colors.css">
+        <link rel="stylesheet" type="text/css" href="/assets/css/core/components.css">
+        <link rel="stylesheet" type="text/css" href="/assets/css/themes/dark-layout.css">
+        <link rel="stylesheet" type="text/css" href="/assets/css/themes/bordered-layout.css">
+        <link rel="stylesheet" type="text/css" href="/assets/css/themes/semi-dark-layout.css">
+
+        <link rel="stylesheet" type="text/css" href="/assets/css/core/vertical-menu.css">
+        <link rel="stylesheet" type="text/css" href="/assets/css/style.css">
+    </head>
+    <body class="vertical-layout vertical-menu-modern  navbar-floating footer-static" data-open="click" data-menu="vertical-menu-modern" data-col="">
+
+        {% sidebar.html %}
+
+        <div class="app-content content ">
+            <div class="content-wrapper">
+                <div class="content-body">
+                    <section class="invoice-list-wrapper">
+                        <h2 id="laptops">Laptops</h2>
+                        <div class="card">
+                            <div class="card-datatable table-responsive">
+                                <table id="laptopsTable" class="clients-table table" style="font-size: 1rem;">
+                                    <thead>
+                                        <tr>
+                                            <th>#</th>
+                                            <th>Device</th>
+                                            <th>IPv4</th>
+                                            <th>MAC</th>
+                                            <th>Last Discovery</th>
+                                            <th>Last Check</th>
+                                            <th>Busy</th>
+                                        </tr>
+                                    </thead>
+                                    <tbody>
+                                        <tr>
+                                            <td> Loading...</td>
+                                        </tr>
+                                    </tbody>
+                                </table>
+                            </div>
+                        </div>
+
+                        <h2 id="phones">Phones</h2>
+                        <div class="card">
+                            <div class="card-datatable table-responsive">
+                                <table id="phonesTable" class="clients-table table" style="font-size: 1rem;">
+                                    <thead>
+                                        <tr>
+                                            <th>#</th>
+                                            <th>Device</th>
+                                            <th>IPv4</th>
+                                            <th>MAC</th>
+                                            <th>Last Discovery</th>
+                                            <th>Last Check</th>
+                                            <th>Busy</th>
+                                        </tr>
+                                    </thead>
+                                    <tbody>
+                                        <tr>
+                                            <td> Loading...</td>
+                                        </tr>
+                                    </tbody>
+                                </table>
+                            </div>
+                        </div>
+
+                        <h2 id="tablets">Tablets</h2>
+                        <div class="card">
+                            <div class="card-datatable table-responsive">
+                                <table id="tabletsTable" class="clients-table table" style="font-size: 1rem;">
+                                    <thead>
+                                        <tr>
+                                            <th>#</th>
+                                            <th>Device</th>
+                                            <th>IPv4</th>
+                                            <th>MAC</th>
+                                            <th>Last Discovery</th>
+                                            <th>Last Check</th>
+                                            <th>Busy</th>
+                                        </tr>
+                                    </thead>
+                                    <tbody>
+                                        <tr>
+                                            <td> Loading...</td>
+                                        </tr>
+                                    </tbody>
+                                </table>
+                            </div>
+                        </div>
+                    </section>
+                </div>
+            </div>
+        </div>
+
+        <div class="sidenav-overlay"></div>
+        <div class="drag-target"></div>
+
+        {% footer.html %}
+
+        <script src="/assets/js/vendors/vendors.min.js"></script>
+        <script src="/assets/js/vendors/extensions/moment.min.js"></script>
+        
+        <script src="/assets/js/vendors/tables/datatable/datatables.min.js"></script>
+        <script src="/assets/js/vendors/tables/datatable/datatables.buttons.min.js"></script>
+        <script src="/assets/js/vendors/tables/datatable/datatables.bootstrap4.min.js"></script>
+        <script src="/assets/js/vendors/tables/datatable/datatables.checkboxes.min.js"></script>
+        <script src="/assets/js/vendors/tables/datatable/dataTables.responsive.min.js"></script>
+        <script src="/assets/js/vendors/tables/datatable/responsive.bootstrap.min.js"></script>
+
+        <script src="/assets/js/core/app-menu.js"></script>
+        <script src="/assets/js/core/app.js"></script>
+
+        <script src="/assets/js/clients_update.js"></script>
+    </body>
+</html>
