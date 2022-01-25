@@ -6,17 +6,19 @@ How to use
     <br>
     "ssh": {       #gateway
         "host": "192.168.0.1",
-          </br>   
-          <br>
+ 
         "port": 22,
-            </br>
+     
         "user": "root",
+        
         "passwd": "password"
     },
+    
     "subnets": [
     "192.168.0.1",
     "192.168.1.0"
     ], #empty [] or 192.168.2.0 etc
+    
     "devices": [
 
 How to run
