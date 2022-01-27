@@ -27,4 +27,5 @@ How to run
 
 pip3 install --upgrade pip
 
-python3 main.py --config config.json --ssh
+nohup python3 main.py --config config.json --ssh &
+
