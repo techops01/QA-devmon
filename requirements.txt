@@ -4,3 +4,4 @@ aioping
 aiohttp
 pycrypto
 paramiko
+OuiLookup
